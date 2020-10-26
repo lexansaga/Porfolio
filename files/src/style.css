@@ -1,0 +1,192 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', Tahoma, Geneva, Verdana, sans-serif;
+    
+   
+}
+.content
+{
+    display: flex;
+    flex-direction: column;
+}
+.navigation
+{
+    height: 10%;
+}
+.navbar-content
+{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: flex-end;
+    margin-right: 5%;
+}
+.navbar-content > li
+{
+    margin-left: 2%;
+    padding: 10px;
+    
+}
+.navbar-content > li > a
+{
+    color: black;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    
+}
+.navbar-content > li > a:hover
+{
+ 
+    color: #40E9BB;
+    transition: color 0.3s ease;
+    
+}
+.navbar-content > li:active
+{
+    border-bottom: 3px solid #40E9BB;
+}
+
+.body
+{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+
+}
+.social-content
+{
+    height: 60%;
+    width: 10%;
+}
+.social-content 
+{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+
+}
+.social-content > li
+{
+    margin-top: 50px;
+}
+.greetings
+{
+width: 50%;
+height: 100%;
+margin-top: 6%;;
+margin-left: 8%;
+}
+.greetings > .greetings-content 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+  
+}
+.greetings > .greetings-content > .hello
+{
+    width: 100px;
+    border-radius: 20px 20px 20px 0;
+    background-color: #40E9BB;
+    padding: 10px;
+    margin-bottom: 0;
+}
+.greetings > .greetings-content > .hello > span
+{
+    font-weight: 500;
+    color: white;
+    justify-content: center;
+    width: inherit;
+    display: flex;
+}
+
+.greetings > .greetings-content > h1
+{
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 500;
+    color: #707070;
+    padding-bottom: 10px;
+}
+.greetings > .greetings-content > p
+{
+    font-size: 22px;
+    font-weight: 500;
+    color: #707070;
+}
+.greetings > .greetings-content > .contact_list
+{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    justify-content: center;
+}
+.greetings > .greetings-content > .contact_list > li
+{
+    padding:0.7%;
+    margin-left: -5%;
+    color: #707070;
+}
+.greetings > .greetings-content > .btn_group 
+{
+    display: flex;
+    flex-direction: row;
+}
+.greetings > .greetings-content > .btn_group > .btn_aboutme
+{
+    border-radius: 50px;
+    border:none;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    padding: 15px 32px;
+    background-color: #40E9BB;
+    outline: none;
+    width: 180px;
+    font-size: 16px;
+    font-weight: 500;  
+    transition-duration: color 0.4s ease;
+}
+
+.greetings > .greetings-content > .btn_group > .btn_aboutme:hover
+{
+    background-color:#39DEB1 ;
+}
+.greetings > .greetings-content > .btn_group >.btn_hireme
+{
+    border-radius: 50px;
+    border:none;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    padding: 15px 32px;
+    background-color: #40E9BB;
+    outline: none;
+    width: 180px;
+    font-size: 16px;
+    font-weight: 500;
+    transition-duration: color 0.4s ease;
+    
+}
+.greetings > .greetings-content > .btn_group >.btn_hireme:hover
+{
+    background-color:#39DEB1 ;
+}
+.profile
+{
+    width: 50%;
+}
+.profile > .avatar 
+{
+    height: 350px;
+    width: 350px;
+   margin: 18% 5% 0 0 ;
+
+}
