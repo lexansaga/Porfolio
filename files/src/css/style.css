@@ -214,7 +214,7 @@ body {
 
 .about {}
 
-.about>.left {
+.left {
 	width: 50%;
 }
 .about > .left > img
@@ -223,7 +223,7 @@ body {
  margin:  0 auto 0 auto;
  width: 50vh;
 }
-.about>.right {
+.right {
 	width: 50%;
 }
  .center
@@ -359,5 +359,28 @@ body {
 	display: flex;
 	flex-direction: row;
 	width: 50%;
+
+  }
+
+  #education
+  {
+	margin:100px;
+
+  }
+ .card > .container > span
+  {
+	color: #40E9BB;
+	font-weight: 600;
+	font-size: 20px;
+	padding-bottom: 10px;
+  }
+  .card > .container > p
+  {
+
+	line-height: 35px;
+  }
+  .card >.container > ul > li
+  {
+	line-height: 25px;
 
   }
