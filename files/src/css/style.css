@@ -1,7 +1,6 @@
 body {
 	margin: 0;
 	padding: 0;
-	font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .content {
@@ -382,5 +381,4 @@ body {
   .card >.container > ul > li
   {
 	line-height: 25px;
-
   }
